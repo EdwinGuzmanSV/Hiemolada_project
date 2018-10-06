@@ -19,12 +19,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color:#f1f1f1;
+    background-color:#ffffff;
     overflow: hidden;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #4CAF50;
 }
 
 li {
