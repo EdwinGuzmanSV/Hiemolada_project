@@ -1,4 +1,4 @@
-<style>
+
 #navlist {
     position: relative;
 }
@@ -24,7 +24,7 @@ ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    border: 1px solid #4CAF50;
+    border: 1px solid rgb(7, 216, 253);
 }
 
 li {
@@ -41,7 +41,7 @@ li a {
 
 li a.active {
     list-style-type: none;
-    background-color: #4CAF50;
+    background-color: rgb(7, 216, 253);
     color: white;
 }
 
@@ -60,7 +60,5 @@ background-attachment : fixed;
 
 #verdecentrado{
 text-align:center; 
-color:#4CAF50;
+color:rgb(7, 216, 253);
 }
-
-</style>
