@@ -1,0 +1,64 @@
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border: 1px solid rgb(7, 216, 253);
+}
+
+li {
+    list-style-type: none;
+    float:left;
+}
+li a {
+    list-style-type: none;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    list-style-type: none;
+    background-color: rgb(7, 216, 253);
+    color: white;
+}
+
+li a:hover:not(.active) {
+list-style-type: none;
+    background-color: #555;
+    color: white;
+}
+
+body{
+background-image: url(../img/favicon.png); 
+background-position : center; 
+background-repeat : no-repeat; 
+background-attachment : fixed;
+}
+
+#verdecentrado{
+text-align:center; 
+color:rgb(7, 216, 253);
+}
