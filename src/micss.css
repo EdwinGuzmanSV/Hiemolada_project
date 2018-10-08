@@ -117,7 +117,7 @@ img{
 p {
     color: #524c56;
     font-size: 125%;
-    line-height: 180%; /*Espacio entre lineas*/ 
+    /*Espacio entre lineas*/ 
     text-indent: 3%;
     text-align: justify;
     padding: 16px;
@@ -136,10 +136,13 @@ footer {
      width: 100%; 
     
   }
-  pie {
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
+  div.Footer {
+    background-color: #4CAF50;
+    margin-top: 400px;
+
+
+  }
+  td{
+      text-align: center;
+      padding-left: 60px;
   }
