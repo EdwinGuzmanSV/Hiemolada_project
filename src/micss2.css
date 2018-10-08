@@ -1,0 +1,158 @@
+<style>
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border: 1px solid #4CAF50;
+}
+
+li {
+    list-style-type: none;
+    float:left;
+}
+li a {
+    list-style-type: none;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 1em;
+}
+
+a {
+    color: #FE2E9A;
+   }
+
+li a.active {
+    list-style-type: none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+list-style-type: none;
+    background-color: #555;
+    color: white;
+}
+
+body{
+background-image: url(../img/favicon.png); 
+background-position : center; 
+background-repeat : no-repeat; 
+background-attachment : fixed;
+width:99%;}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+
+.centro{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 39px 39px 39px 39px;
+-moz-border-radius: 39px 39px 39px 39px;
+-webkit-border-radius: 39px 39px 39px 39px;
+border: 0px solid #000000;
+}
+
+.separador1{
+    height: 20px;
+}
+
+img{
+    transition: all 0.5s linear;
+}
+
+img:hover{
+    transform: scale(0.90);
+}
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook2{
+
+    background: #015CE8;
+}
+
+.icon-twitter{
+    background: #2FC8DA;
+}
+
+.icon-google-plus2{
+    background: #D64C43;
+}
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0 ;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+
+.botones{
+    margin-top: 13px;
+    align-content: center;
+    width: 700px; margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.preguntas{
+    
+    width: 720px; margin: 0px auto;
+    padding-right: 3rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+
+</style>

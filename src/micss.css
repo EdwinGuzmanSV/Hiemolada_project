@@ -59,6 +59,52 @@ background-attachment : fixed;
 width:99%;
 }
 
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook2{
+
+    background: #015CE8;
+}
+
+.icon-twitter{
+    background: #2FC8DA;
+}
+
+.icon-google-plus2{
+    background: #D64C43;
+}
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0 ;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
 #verdecentrado{
 text-align:center; 
 color:#4CAF50;
@@ -174,3 +220,4 @@ footer {
     width: 80px;
     height: 85px;
   }
+
