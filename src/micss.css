@@ -146,3 +146,31 @@ footer {
       text-align: center;
       padding-left: 60px;
   }
+  .logo p{
+    display: inline-block;
+    width: 30%;
+  }
+  .redes{
+    text-align: center;
+    margin-top: none;
+  }
+  .red1 {
+    margin-top: -30px;
+    width: 80px;
+    height: 85px;
+  }
+  .red2 {
+    margin-top: -30px;
+    width: 80px;
+    height: 85px;
+  }
+  .red3 {
+    margin-top: -30px;
+    width: 80px;
+    height: 85px;
+  }
+  .red4 {
+    margin-top: -30px;
+    width: 80px;
+    height: 85px;
+  }
