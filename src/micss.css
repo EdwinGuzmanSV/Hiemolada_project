@@ -68,7 +68,7 @@ divlogo {
 h2{
     text-align: center;
     color:rgb(17, 85, 11);
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
 }
 img{
     display:block;
@@ -105,5 +105,13 @@ footer {
   contenedor-slider{
      height: 60%;
      width: 100%; 
+    
+  }
+  pie {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
   }
 </style>
