@@ -8,8 +8,14 @@
 
 
 <url>
+  <loc>https://hiemolada.000webhostapp.com/</loc>
+  <lastmod>2018-10-07T23:10:26+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
   <loc>https://hiemolada.000webhostapp.com/index.html</loc>
-  <lastmod>2018-10-07T06:14:45+00:00</lastmod>
+  <lastmod>2018-10-07T23:10:26+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
