@@ -1,0 +1,133 @@
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border: 1px solid #4CAF50;
+}
+
+li.navbar {
+    list-style-type: none;
+    float:left;
+}
+li a {
+    list-style-type: none;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    list-style-type: none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+list-style-type: none;
+    background-color: #555;
+    color: white;
+}
+
+body{
+background-image: url(../img/favicon.png); 
+background-position : center; 
+background-repeat : no-repeat; 
+background-attachment : fixed;
+}
+divlogo {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 25px;
+    display: block;
+    
+}
+
+  contenedor-slider{
+     height: 60%;
+     width: 100%; 
+  }
+  .redes{
+    text-align: center;
+    margin-top: none;
+  }
+  .red1 {
+    margin-top: -30px;
+    width: 80px;
+    height: 85px;
+  }
+  .red2 {
+    margin-top: -30px;
+    width: 80px;
+    height: 85px;
+  }
+  .red3 {
+    margin-top: -30px;
+    width: 80px;
+    height: 85px;
+  }
+  .red4 {
+    margin-top: -30px;
+    width: 80px;
+    height: 85px;
+  }
+/*para social bar de enrique*/
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-facebook2{
+    background: #015CE8;
+}
+.icon-twitter{
+    background: #2FC8DA;
+}
+.icon-google-plus2{
+    background: #D64C43;
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0 ;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
