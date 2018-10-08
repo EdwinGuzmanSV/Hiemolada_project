@@ -1,5 +1,5 @@
-<!doctype <!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="es" manifest=".\hiemoladacont.appcache">
 <head>
 
     <meta charset="UTF-8">
@@ -15,8 +15,7 @@
     <link rel="stylesheet" type="text/css" href="..\src/micss.css" media="screen" list-style-type= "none"/>
     <link rel="icon" type="image/png" href="..\img/favicon.png" />
 </head>
-<body>
-    <body background="..\img/home2.png">
+<body background="..\img/home2.png">
        <ul>
             <li id="home"><a href="../index.html">Home</a></li>
             <li><a href="..\Servicios/servicios.html">Servicios</a></li>
@@ -26,7 +25,6 @@
             <li><a href="..\Sucursales/sucursales.html">Sucursales</a></li>
             <li><a class="active" href="..\Contactanos/contactanos.html">Contacto</a></li>
             <li style="float:right"><a href="..\Acercade/acercade.html">Acerca de</a></li>
-            </li>
         </ul>
 <div style="width: 50%; float:left;">
     <img src=".\img/hiemolada.jpg" alt="celular" style="width:100%;height:50%;">
@@ -38,23 +36,25 @@
     </div>
 </div>
 <div style="width: 50%; float:right;" >
-  <form style="width:100%;height:100%;">
-  <fieldset>
-    <legend>Formulario de contacto</legend>
-    <b>Nombre</b><i>(Requerido)</i><br>
-    <input type="text" id="fullname" name="fullname" value="" size="50" required>
+  <form id="formCont" style="width: 95.5%;">
+  <fieldset style="width: 95.5%;">
+    <legend id="verdecentrado">Formulario de contacto</legend>
+    <b id="verde">Nombre</b><i id="verde">(Requerido)</i><br>
+    <input type="text" class="field" id="fullname" name="fullname" value="" style="WIDTH: 50%;" required>
     <br><br>
-    <b>Correo Electronico</b><i>(Requerido)</i><br>
-    <input type="email" id="email" name="email" value="" size="50" maxlength="50" required>
+    <b id="verde">Correo Electronico</b><i id="verde">(Requerido)</i><br>
+    <input type="email" class="field" id="email" name="email" value="" maxlength="50" style="WIDTH: 50%;" required>
     <br><br>
-    <b>Telefono</b><i>(Opcional)</i><br>
-    <input type="tel" id="phone"  name="phone" value="" size="20" maxlength="20">
+    <b id="verde">Telefono</b><i id="verde">(Opcional)</i><br>
+    <input type="tel" class="field" id="phone"  name="phone" value="" style="WIDTH: 25%;" maxlength="20">
     <br><br>
-    <b>Mensaje</b><i>(Requerido)</i><br>
-    <input type="text" name="message" value="" maxlength="1200" style="WIDTH: 100%; HEIGHT: 350px" required >
+    <b id="verde">Mensaje</b><i id="verde">(Requerido)</i><br>
+    <textarea type="text" class="field" name="message" value="" maxlength="1200" style="WIDTH: 98%; HEIGHT: 300px;" required ></textarea>
     <script type="text/javascript" src=".\src/valFormCont.js"></script>
     <br><br>
-    <input type="submit" value="Enviar" onclick="valiform()">
+    <center>
+        <input class="field" type="submit" value="Enviar" onclick="valiform()">
+    </center>
   </fieldset>
 </form>
 </div>
