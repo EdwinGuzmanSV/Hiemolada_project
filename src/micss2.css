@@ -1,3 +1,4 @@
+<style>
 #navlist {
     position: relative;
 }
@@ -39,6 +40,10 @@ li a {
     border-radius: 1em;
 }
 
+a {
+    color: #FE2E9A;
+   }
+
 li a.active {
     list-style-type: none;
     background-color: #4CAF50;
@@ -56,9 +61,36 @@ background-image: url(../img/favicon.png);
 background-position : center; 
 background-repeat : no-repeat; 
 background-attachment : fixed;
-width:99%;
+width:99%;}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+
+.centro{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 39px 39px 39px 39px;
+-moz-border-radius: 39px 39px 39px 39px;
+-webkit-border-radius: 39px 39px 39px 39px;
+border: 0px solid #000000;
 }
 
+.separador1{
+    height: 20px;
+}
+
+img{
+    transition: all 0.5s linear;
+}
+
+img:hover{
+    transform: scale(0.90);
+}
 
 .social-bar{
     position: fixed;
@@ -105,90 +137,22 @@ width:99%;
     border-radius: 1rem 0 0 1rem;
     box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
 }
-#verdecentrado{
-text-align:center; 
-color:#4CAF50;
-font-weight: bold;
-}
 
-#verde{
-color:#4CAF50;
-}
-
-.field{
-background-color: #4CAF50;
-border: 2px solid #4CAF50;
-color:white;
-padding: 5px;
-border-radius: 1em;
-font-weight: bold;
-font-size: 15px;
-}
-
-#formCont{
-width:95%;height:90%; 
-padding: 1em;
-border: 1px solid #4CAF50;
-border-radius: 1em;
-}
-
-divlogo {
-    background-color: white;
-    margin: auto;
-    width: 60%;
-    padding: 25px;
+.botones{
+    margin-top: 13px;
+    align-content: center;
+    width: 700px; margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    
 }
-h2{
-    text-align: center;
-    color:rgb(17, 85, 11);
-    font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
-}
-img{
-    display:block;
-    margin:auto;
-    }
-    h3 { 
-    font-size: 165%;
-    line-height: 155%;
-    font-weight: 500;
-    color: #524c56;
-    text-align: center;
-    text-transform: uppercase;
-    color: #b84e64;
-    font-weight: bold;
-    
-}
-p {
-    color: #524c56;
-    font-size: 125%;
-    /*Espacio entre lineas*/ 
-    text-indent: 3%;
-    text-align: justify;
-    padding: 16px;
-}
-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: center;
-  }
-  contenedor-slider{
-     height: 60%;
-     width: 100%; 
-    
-  }
-  div.Footer {
-    background-color: #4CAF50;
-    margin-top: 400px;
 
+.preguntas{
+    
+    width: 720px; margin: 0px auto;
+    padding-right: 3rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
 
-  }
-  td{
-      text-align: center;
-      padding-left: 60px;
-  }
+</style>
