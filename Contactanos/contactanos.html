@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hiemolada</title>
-<link rel="stylesheet" type="text/css" href=".\src/csscontacto.css" media="screen" list-style-type= "none"/>
+    <link rel="stylesheet" type="text/css" href="..\src/micss.css" media="screen" list-style-type= "none"/>
+    <link rel="icon" type="image/png" href="..\img/favicon.png" />
 </head>
 <body>
+    <body background="..\img/home2.png">
        <ul>
             <li id="home"><a href="../index.html">Home</a></li>
             <li><a href="..\Servicios/servicios.html">Servicios</a></li>
@@ -25,7 +27,7 @@
     <h1 style="float:center; color:#4CAF50;">Contactanos</h1>
     <p>En Hiemolada estamos para servirte. Si deseas contactarnos, por favor utiliza el siguiente formulario o llamanos al numero.<br><br/></p>
     <p></p>
-    <div align="center">
+    <div>
     	<div>
 	<img src=".\img/cel.png" alt="celular" style="float:center;width:52px;height:52px;"><h2 style="color:#4CAF50;">El Salvador: +503 2255-5555</h2>
 	</div>
@@ -36,18 +38,37 @@
   <fieldset>
     <legend>Formulario de contacto</legend>
     <b>Nombre</b><i>(Requerido)</i><br>
-    <input type="text" name="fullname" value="" size="50">
+    <input type="text" id="fullname" name="fullname" value="" size="50" required>
     <br><br>
     <b>Correo Electronico</b><i>(Requerido)</i><br>
-    <input type="text" name="email" value="" size="50" maxlength="50">
+    <input type="email" id="email" name="email" value="" size="50" maxlength="50" required>
     <br><br>
     <b>Telefono</b><i>(Opcional)</i><br>
-    <input type="text" name="phone" value="" size="20" maxlength="20">
+    <input type="tel" id="phone"  name="phone" value="" size="20" maxlength="20">
     <br><br>
     <b>Mensaje</b><i>(Requerido)</i><br>
-    <input type="text" name="message" value="" maxlength="1200" style="WIDTH: 100%; HEIGHT: 350px" >
+    <input type="text" name="message" value="" maxlength="1200" style="WIDTH: 100%; HEIGHT: 350px" required >
+    <script type="text/javascript">
+        function valiform(){
+            var nom= document.getElementById("fullname").value;
+            var expregnom = /(^([A-Za-z]+)$)|^$/;
+            var emai = document.getElementById("email").value;
+            var expregemail = /(^([A-Za-z]{1})([A-Za-z0-9_-]+)(@{1})([A-Za-z0-9]+)(.{1})([A-Za-z]{1,3})$)|^$/;
+            var num = document.getElementById("phone").value;
+            var expregnum = /(^([2|6|7]{1})([1-9]{3})( |-|)([0-9]{4})$)|^$/;
+            if(expregnom.test(nom));
+            else
+                alert("El nombre no es correcto");
+            if(expregemail.test(emai));
+            else
+                alert("El email no es correcto");
+            if(expregnum.test(num));
+            else
+                alert("El numero no es correcto");
+        }
+        </script>
     <br><br>
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Enviar" onclick="valiform()">
   </fieldset>
 </form>
 </div>

@@ -51,4 +51,10 @@ list-style-type: none;
     color: white;
 }
 
+body{
+background-image: url(../img/favicon.png); 
+background-position : center; 
+background-repeat : no-repeat; 
+background-attachment : fixed;
+}
 </style>
