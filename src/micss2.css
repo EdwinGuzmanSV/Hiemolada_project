@@ -1,3 +1,4 @@
+<style>
 #navlist {
     position: relative;
 }
@@ -36,7 +37,12 @@ li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    border-radius: 1em;
 }
+
+a {
+    color: #FE2E9A;
+   }
 
 li a.active {
     list-style-type: none;
@@ -55,81 +61,37 @@ background-image: url(../img/favicon.png);
 background-position : center; 
 background-repeat : no-repeat; 
 background-attachment : fixed;
-}
-divlogo {
-    background-color: white;
-    margin: auto;
-    width: 60%;
-    padding: 25px;
+width:99%;}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+
+.centro{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    
+    border-radius: 39px 39px 39px 39px;
+-moz-border-radius: 39px 39px 39px 39px;
+-webkit-border-radius: 39px 39px 39px 39px;
+border: 0px solid #000000;
 }
-h2{
-    text-align: center;
-    color:rgb(17, 85, 11);
-    font-family: 'Courier New', Courier, monospace;
+
+.separador1{
+    height: 20px;
 }
+
 img{
-    display:block;
-    margin:auto;
-    }
-    h3 { 
-    font-size: 165%;
-    line-height: 155%;
-    font-weight: 500;
-    color: #524c56;
-    text-align: center;
-    text-transform: uppercase;
-    color: #b84e64;
-    font-weight: bold;
-    
+    transition: all 0.5s linear;
 }
-p {
-    color: #524c56;
-    font-size: 125%;
-    line-height: 180%; /*Espacio entre lineas*/ 
-    text-indent: 3%;
-    text-align: justify;
-    padding: 16px;
+
+img:hover{
+    transform: scale(0.90);
 }
-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: center;
-  }
-  contenedor-slider{
-     height: 60%;
-     width: 100%; 
-  }
-  .redes{
-    text-align: center;
-    margin-top: none;
-  }
-  .red1 {
-    margin-top: -30px;
-    width: 80px;
-    height: 85px;
-  }
-  .red2 {
-    margin-top: -30px;
-    width: 80px;
-    height: 85px;
-  }
-  .red3 {
-    margin-top: -30px;
-    width: 80px;
-    height: 85px;
-  }
-  .red4 {
-    margin-top: -30px;
-    width: 80px;
-    height: 85px;
-  }
-/*para social bar de enrique*/
+
 .social-bar{
     position: fixed;
     right: 0;
@@ -140,6 +102,7 @@ footer {
     align-items: flex-end;
     z-index: 100;
 }
+
 .icon {
     color: white;
     text-decoration: none;
@@ -147,23 +110,49 @@ footer {
     display: flex;
     transition: all .5s;
 }
+
 .icon-facebook2{
+
     background: #015CE8;
 }
+
 .icon-twitter{
     background: #2FC8DA;
 }
+
 .icon-google-plus2{
     background: #D64C43;
 }
+
 .icon:first-child{
     border-radius: 1rem 0 0 0 ;
 }
+
 .icon:last-child{
     border-radius: 0 0 0 1rem;
 }
+
 .icon:hover{
     padding-right: 3rem;
     border-radius: 1rem 0 0 1rem;
     box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
 }
+
+.botones{
+    margin-top: 13px;
+    align-content: center;
+    width: 700px; margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.preguntas{
+    
+    width: 720px; margin: 0px auto;
+    padding-right: 3rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+
+</style>
