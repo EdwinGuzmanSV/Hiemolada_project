@@ -1,14 +1,51 @@
-﻿<!doctype <!DOCTYPE html>
-<html lang="es">
+﻿<!DOCTYPE html>
+<html lang="es" manifest="ejemplo.appcache">
 <head>
     <meta charset="UTF-8">
+    <meta name="title" content="Hiemolada">
+    <meta name="description" content="Bienvenido a la pagina de Hiemolada tenemos lo que necesitas para tu fiesta ricos y refrescantes Frozen de limon.">
+    <meta name="keywords" content="Hiemolada, hiemolada, frozen de limon">
+    <meta name="author" content="UES_TPI_Grupo_13">
+    <meta name="language" content="Spanish">
+    <meta name="Geography" content="El Salvador">
+    <meta name="country" content="El Salvador">
+    <meta name="city" content="San Salvador">
+    <meta name="Copyright" content="Hiemolada.com">
+    <meta name="Designer" content="Hiemolada SA. de CV.">
+    <meta name="Publisher" content="Hiemolada_Project">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="keywords" content="hiemolada.000webhostapp.com, Hiemolada.com, Hiemolada, Comida y Bebidas, Eventos en San Salvador, 
+    frozen, Bebidas Frias, eventos privados,a nivel nacional, buscanos">
+    <meta name="description" content="HIemolada es una empresa que ofrece los servicios de Bebidas para eventos Familiares, Bodas, u otros"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="robots" content="index">
+    <meta name="robots" content="traslate">
+    <meta name="robots" content="Noimageindex">
+    <meta property="og:title" content="Pagina Web Hiemolada" />
+    <meta property="og:type" content="Empresa de Frozen de limon" />
+    <meta property="og:url" content="https://hiemolada.000webhostapp.com/index.html" />
+    <meta property="og:image" content="https://hiemolada.000webhostapp.com/img/home2.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="363px" />
+    <meta property="og:image:height" content="363px" />
+    <meta property="og:image:alt" content="icono Hiemolada" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://hiemolada.000webhostapp.com">
+    <meta name="twitter:creator" content="Hiemolada">
+    <meta name="twitter:site" content="@hiemolada">
+    <meta name="twitter:title" content="Hiemolada">
+    <meta name="twitter:description" content="Pagina web Hiemolada">
+    <meta name="twitter:image" content="https://hiemolada.000webhostapp.com/img/home2.png" />
     <link rel="icon" type="image/png" href=".\img/favicon.png" />
     <link rel="stylesheet" type="text/css" href=".\redes/icomoon/font.css" />
     <title>Hiemolada</title>
-    <link rel="stylesheet" type="text/css" href=".\src/micss.css" media="screen" />
-
+    <link rel="stylesheet" type="text/css" href=".\src/micss.css" media="screen" />  
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <style>
+        .mySlides {display:none;}
+    </style>
+    
 </head>
 <body> 
         <ul>
@@ -22,16 +59,74 @@
 		            <li><a href=".\Contactanos/contactanos.html">Contacto</a></li>
                     <li><a href="..\Comentarios/comentarios.html">Preguntas Frecuentes</a></li>
                 <li style="float:right"><a  href=".\Acercade/acercade.html">Acerca de</a></li>
-               
-                  </div>
-                </li>
-              </ul>
+        </ul>
+
+            <div class="divlogo">
+                <img src="img/hiemolada.png">
+            </div> 
+            <h2><strong>Bienvenidos a nuestra pagina oficial, <br> podras descubrir nuestros servicios y promociones!</strong></h2>
+
             
-    <div>
-      <h2>LAS MEJORES LIMONADAS QUE HAYAS PROBADO!</h2>
-    <p>La limonada frozen se ha convertido en un refresco popular en El Salvador, debido a que te refresca en momentos de mucho calor y tiene al limón como ingrediente central de preparación.</p>
-    </div>
+            <!--Slider xD-->
+
+             <section id="slider">
+              <div class="contenedor-slider">
+                  <div class="w3-content w3-section" style="max-width:500px">
+                      <img class="mySlides w3-animate-botton" src="img/slider/img3.jpg" style="width:100%">
+                      <img class="mySlides w3-animate-bottom" src="img/slider/img4.jpg" style="width:100%">
+                      <img class="mySlides w3-animate-bottom" src="img/slider/img3.jpg" style="width:100%">
+                    </div>
+                    
+                    <script>
+                    var myIndex = 0;
+                    carousel();
+                    
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                          x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                        setTimeout(carousel, 2500);    
+                    }
+                    </script>
+              </div>
+             </section> 
+            
+            <section id="mision_vision">
+                <div style="width:48%; background:rgb(200, 235, 211); float:left; padding: 1px;  border: 2px solid #73AD21;border-radius: 50px;">
+                    <div class="mision">
+                      <h3><strong>Mision</strong></h3>
+                      <b><p>Crear y promover bebidas de excelente sabor, más sanas y orgánicas. Trabajamos para crecer nuestro negocio con la misma honestidad e integridad que usamos para crear nuestros productos, pensando en sustenibilidad y un buen sabor para todos. Para lograrlo, hemos establecido una cultura que apoya a los miembros de nuestro equipo para que ellos puedan dar un servicio excepcional a nuestros consumidores.</p></b>
+                  </div> 
+                </div>
+                  <div style="width:48%; background:#a8d39a; float:right; padding: 1px;  border: 2px solid #73AD21;border-radius: 50px;"> 
+                    <div class="mision">
+                      <h3 ><strong>vision</strong></h3>
+                      <p> <b> Ser una empresa lider y con marca de confianza para nuestros consumidores.
+                          <br> El proveedor preferido de nuestros clientes.
+                          <br> Una empresa innovadora, que mira hacia el futuro.
+                          <br> Una empresa financieramente sólida.
+                          <br> Un lugar extraordinario para trabajar.
+                          <br> Brindar muchas emociones por medio de nuestros productos.</b>   
+                     </p>
+                    </div> 
+                  </div>
+                  
+                  </div> 
+            </section>
+
+  <!-- Footer -->
+  <section id="pie"> 
+      <div class="Footer">
+          <h5 style="text-align: center; color: rgb(9, 85, 32)"><strong>Hiemolada &copy; Todos los derechos reservados</strong></h5>
+          <p style="text-align: center; letter-spacing: 4px; color: rgb(46, 105, 81)"><strong>Gracias Por visitarnos!</strong></p>
+          <p style="text-align:center;"><strong>Siguenos en Nuestras Redes Sociales</strong></p>
     
+
   <div class="social-bar">
   <a href="http://twitter.com/hiemolada" class="icon icon-twitter" target="_blank"></a>
 
@@ -41,4 +136,16 @@
 </div>
    
 </body>
+          <div style="width:33%; float:left; padding: 1px">
+                <td><strong><a style="padding-left:60px;" href="http://facebook.com/Hiemolada" target="_blank" rel="noopener noreferrer">Facebook</a></strong></td>
+          </div> 
+        <div style="width:33%; float:right; padding: 1px"> 
+              <td><strong><a href="http://www.twitter.com/Hiemolada" target="_blank" rel="noopener noreferrer">Twitter</a></strong></td>
+        </div>
+        <div style="width:33%; float:right; padding: 1px"> 
+            <td><strong><a href="http://www.g+.com/Hiemolada" target="_blank" rel="noopener noreferrer">Google+</a></strong></td>
+        </div>  
+      </div>    
+  </section>
+</body>     
 </html>
