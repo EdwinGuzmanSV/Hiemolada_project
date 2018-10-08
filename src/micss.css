@@ -57,4 +57,40 @@ background-position : center;
 background-repeat : no-repeat; 
 background-attachment : fixed;
 }
+divlogo {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 25px;
+    display: block;
+    
+}
+h2{
+    text-align: center;
+    color:rgb(17, 85, 11);
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    display:block;
+    margin:auto;
+    }
+    h3 { 
+    font-size: 165%;
+    line-height: 155%;
+    font-weight: 500;
+    color: #524c56;
+    text-align: center;
+    text-transform: uppercase;
+    color: #b84e64;
+    font-weight: bold;
+    
+}
+p {
+    color: #524c56;
+    font-size: 125%;
+    line-height: 180%; /*Espacio entre lineas*/ 
+    text-indent: 3%;
+    text-align: justify;
+    padding: 16px;
+}
 </style>
