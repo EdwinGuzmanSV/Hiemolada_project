@@ -1,0 +1,156 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+input[type=text]{
+    width: 71%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    color: white;
+    background-color: #32CD0C;
+}
+input[type=email]{
+    width: 87%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    color: white;
+    background-color: #32CD0C;
+}
+input[type=phone]{
+    width: 85%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    color: white;
+    background-color: #32CD0C;
+}
+input[type=cod]{
+    width: 73%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    color: white;
+    background-color: #32CD0C;
+}
+input[type=direccion]{
+    width: 85%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    color: white;
+    background-color: #32CD0C;
+}
+p {
+    color:green;
+}
+
+option [type=pais2]{
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    color: white;
+    background-color: #32CD0C;
+}
+option [type=pais1]{
+    width: 73%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    color: white;
+    background-color: #32CD0C;
+}
+
+
+select {
+    width: 73%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: vertical;
+    color: white;
+    background-color: #32CD0C;
+    } 
+ 
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+    color: green;
+}
+
+p {
+  font-size: 12pt;
+  align-self: left;
+
+
+}
+
+input[type=submit] {
+    background-color: #32CD0C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: left;
+}
+
+input[type=submit]:hover {
+    background-color: #32CD0C;
+    align-self: left;
+}
+
+.container {
+    border-radius: 15px;
+    background-color: #32CD0C;
+    padding: 15px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 65%;
+    margin-top: 6px;
+}
+
+/* Layout Responsivo */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 10;
+    }
+}
+
+.form {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+    color: green;
+}
+
+
+</style>
